@@ -44,7 +44,7 @@ namespace CarConsoleApp
         {
             foreach (Car item in carList)
             {
-                if (item.Model.Equals(regNo))
+                if (item.RegNo.Equals(regNo))
                 {
                     return item;
                 }
